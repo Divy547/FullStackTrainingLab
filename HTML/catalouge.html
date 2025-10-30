@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Catalogue</title>
+    <style>
+        body {
+            font-family: Arial;
+            background-color: #f2f2f2;
+        }
+        table {
+            border-collapse: collapse;
+            width: 90%;
+            margin: auto;
+            background-color: white;
+        }
+        th, td {
+            border: 2px solid black;
+            text-align: center;
+            padding: 10px;
+        }
+        th {
+            background-color: pink;
+            color: black;
+        }
+        .topnav th {
+            background-color: red;
+            color: white;
+        }
+        .topnav a {
+            text-decoration: none;
+            color: white;
+            padding: 5px 10px;
+            display: inline-block;
+        }
+        .topnav a:hover {
+            background-color: #444;
+        }
+        .highlight {
+            background-color: magenta;
+            color: white;
+        }
+        .add {
+            background-color: limegreen;
+            padding: 5px 10px;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .add:hover {
+            background-color: darkgreen;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th rowspan="2">Logo</th>
+            <th colspan="5">Web Site Name</th>
+        </tr>
+        <tr class="topnav">
+            <th><a href="#">Home</a></th>
+            <th><a href="#">Login</a></th>
+            <th><a href="#">Registration</a></th>
+            <th class="highlight"><a href="#">Catalogue</a></th>
+            <th><a href="#">Cart</a></th>
+        </tr>
+
+        <tr>
+            <td>ECE</td>
+            <td><img src="images/1.png" height="100" width="80"></td>
+            <td>Book: Ramayan<br>Author: Winston<br>Publication: Wiely</td>
+            <td>$50</td>
+            <td><a class="add" href="#">🛒 Add to cart</a></td>
+        </tr>
+
+        <tr>
+            <td>CSE</td>
+            <td><img src="images/2.png" height="100" width="80"></td>
+            <td>Book: AI<br>Author: S. Russel<br>Publication: Princetonhall</td>
+            <td>$50</td>
+            <td><a class="add" href="#">🛒 Add to cart</a></td>
+        </tr>
+
+        <tr>
+            <td>EEE</td>
+            <td><img src="images/3.png" height="100" width="80"></td>
+            <td>Book: Java 2<br>Author: Watson<br>Publication: BPB Publications</td>
+            <td>$70</td>
+            <td><a class="add" href="#">🛒 Add to cart</a></td>
+        </tr>
+
+        <tr>
+            <td>CIVIL</td>
+            <td><img src="images/4.png" height="100" width="80"></td>
+            <td>Book: HTML in 24 Hours<br>Author: Sam Peter<br>Publication: Sampublication</td>
+            <td>$50</td>
+            <td><a class="add" href="#">🛒 Add to cart</a></td>
+        </tr>
+    </table>
+</body>
+</html>
